@@ -1,5 +1,4 @@
 """
-course: ICS4U
 filename: Arid_Minesweeper.py
 name: Abdulla Arid
 description: This is Minesweeper. your objective is to click on the blocks that do not have
