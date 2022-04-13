@@ -3,6 +3,7 @@ filename: Arid_Minesweeper.py
 name: Abdulla Arid
 description: This is Minesweeper. your objective is to click on the blocks that do not have
 bombs in them otherwise, you lose the game
+For testing, replace 'darkGray' on the line 215 with 'colour'
 """
 import pygame, random, sys
 #called when a new bomb formation has to be called based on the game mode(easy, medium, hard)
@@ -211,7 +212,7 @@ def gameScreen(mode):
                 if grid[row][column] == 9:
                     colour = (255,255,255)
                 #adds a square to the screen, then adds a margin dependent on the mode. The for loop is based off of the game mode.
-                """" For testing, replace 'White' on the next line with 'colour'"""
+                """" For testing, replace 'darkGray' on the next line with 'colour'"""
                 pygame.draw.rect(screen, darkGray,[x,y,size,size])
                 #margin sizes
                 #if on easy mode
